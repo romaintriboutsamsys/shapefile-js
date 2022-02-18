@@ -1,6 +1,6 @@
 {
   "name": "shpjs",
-  "version": "4.0.2",
+  "version": "4.0.2-samsys",
   "description": "A binary shapefile loader, for javascript. Not many caveats",
   "main": "lib/index.js",
   "repository": {
@@ -30,7 +30,7 @@
     "lie": "^3.0.1",
     "lru-cache": "^2.7.0",
     "parsedbf": "^1.1.0",
-    "proj4": "^2.1.4"
+    "proj4": "https://github.com/romaintriboutsamsys/proj4js.git#samsys"
   },
   "browser": {
     "./lib/binaryajax.js": "./lib/binaryajax-fetch.js"
